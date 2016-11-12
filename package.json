@@ -1,0 +1,21 @@
+{
+  "name": "fake-graph",
+  "version": "1.0.0",
+  "description": "OpenGraph fake server",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "micro -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dotcypress/fake-graph.git"
+  },
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^6.1.0",
+    "ogp-meta": "^0.1.9",
+    "shortid": "^2.2.6"
+  }
+}
